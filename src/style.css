@@ -3,6 +3,7 @@ body{
     padding: 0;
     padding: left 200px;
     margin-left: 200px;
+    background-image: url(https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg);
 }
 textarea{ 
 max-height: 300px;
@@ -11,6 +12,7 @@ color:rgb(15, 15, 15);
 border-radius: 20px;
 margin: left 200px;
 padding: 10px;
+resize:none;
     }
 input:hover{ 
     background: rgb(30, 108, 180);
@@ -28,4 +30,7 @@ font-size: 30px;
 color:brown;
 font-family: 'Courier New', Courier, monospace;
 text-align:auto;
+}
+p{ 
+    color:rgb(184, 38, 38)
 }

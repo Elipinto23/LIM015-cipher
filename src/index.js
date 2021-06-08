@@ -2,17 +2,15 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 let btncifrar = document.getElementById("cifrar");
-let llave =parseInt(document.getElementById("llave").value);
+let llave = document.getElementById("llave").value;
 let btndescifrar = document.getElementById("btndescifrar");
-let texto2 = document.getElementById("texto2")
+let texto2 = document.getElementById("texto2");
+let txtcifrar = document.getElementById("texto1");
 function capturadata() {
-    let txtcifrar = document.getElementById("texto1").value;
-    cipher.encode(llave, texto1);
+    let result =cipher.encode(3, txtcifrar.value);
+    console.log(result);
 }
 btncifrar.addEventListener("click", capturadata);
-document.getElementById("texto1").addEventListener("keyup");
-function cifrarTexto(texto1, llave) {
-    let resultado="";
-    const alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-}
+document.getElementById("texto1").addEventListener("keyup", function () {
+    texto1.value = texto1.value.toUpperCase();
+});
