@@ -9,9 +9,17 @@
     <div id="root">
       <h1>Bienvenido</h1>
     </div>
-    <textarea  id ="texto1" name="texto1" rows="10" cols="40">Escribe aquí</textarea>
-    <textarea id="texto2" name="texto2" rows="10" cols="40"></textarea>
-    <input type="button" id="cifrar" value="cifrado" />
+    <textarea  id ="texto1" name="texto1" rows="10" cols="40"placeholder="Escribe aqui tu mensaje"></textarea>
+    <textarea id="texto2" name="texto2" rows="10" cols="40" placeholder="Mensaje Final"></textarea>
+    <br>
+ <p>Llave:<input type="text" id="llave"/></p>
+    <div id="cifrado">
+    <input type="button" id="cifrar" value="cifrado"/>
+  </div>
+  <br>
+  <div id="descifrar">
+    <input type="button" id="descifrar" value="descifrado"/>
+  </div>
   <script src="index.js" type="module"></script>
     <!-- <script src="functions.js" type="text/javascript"></script> -->
   </body>

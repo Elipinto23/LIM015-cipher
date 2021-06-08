@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding: left 200px;
+    margin-left: 200px;
+}
+textarea{ 
+max-height: 300px;
+min-height: 100px;
+color:rgb(15, 15, 15);
+border-radius: 20px;
+margin: left 200px;
+padding: 10px;
+    }
+input:hover{ 
+    background: rgb(30, 108, 180);
+    border: 1px solid #1668c4;
+    border: radius 10px;
+margin: left 50px;
+color:rgb(15, 15, 15);
+
+}
+input:active{
+    background:#CEE5D0;
+}
+h1{ 
+font-size: 30px;
+color:brown;
+font-family: 'Courier New', Courier, monospace;
+text-align:auto;
+}
