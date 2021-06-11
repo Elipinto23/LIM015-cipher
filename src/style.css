@@ -21,6 +21,7 @@ input:hover{
 margin: left 50px;
 color:rgb(15, 15, 15);
 
+
 }
 input:active{
     background:#CEE5D0;
@@ -32,5 +33,5 @@ font-family: 'Courier New', Courier, monospace;
 text-align:auto;
 }
 p{ 
-    color:rgb(184, 38, 38)
+    color:rgb(250, 0, 0)
 }
