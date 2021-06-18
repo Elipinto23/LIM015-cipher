@@ -15,8 +15,8 @@ padding: 10px;
 resize:none;
     }
 input:hover{ 
-    background: rgb(30, 108, 180);
-    border: 1px solid #1668c4;
+    background: rgb(157, 184, 216);
+    border: 1px solid #00090a;
     border: radius 10px;
 margin: left 50px;
 color:rgb(15, 15, 15);
@@ -30,8 +30,23 @@ h1{
 font-size: 30px;
 color:brown;
 font-family: 'Courier New', Courier, monospace;
-text-align:auto;
+text-align:center;
+}
+input{ 
+    border-radius: 5px;
 }
 p{ 
-    color:rgb(250, 0, 0)
+    color:rgb(236, 243, 245);
+}
+footer{ 
+    background:rgb(5, 31, 29);
+    text-align: center;
+    font-size: 10px;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    left: 10px;
+}
+div{ 
+align-items: center;
 }

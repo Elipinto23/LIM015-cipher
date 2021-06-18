@@ -5,7 +5,7 @@ let btncifrar = document.getElementById("cifrar");
 let btndescifrar = document.getElementById("descifrar");
 let llave = document.getElementById("llave");
 let texto1 = document.getElementById("texto1");
-let texto2 = document.getElementById("texto2");
+const texto2 = document.getElementById("texto2");
 
 //funciones
 function cifrarYMostrarResultado() {
@@ -21,6 +21,4 @@ function descifrarYMostrarResultado() {
 //asignacion de eventos
 btncifrar.addEventListener("click", cifrarYMostrarResultado);
 btndescifrar.addEventListener("click", descifrarYMostrarResultado);
-texto1.addEventListener("keyup", function () {
-    texto1.value = texto1.value.toUpperCase();
-});
+//});
