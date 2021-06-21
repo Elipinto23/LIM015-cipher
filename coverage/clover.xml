@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1623979533166" clover="3.2.0">
-  <project timestamp="1623979533167" name="All files">
+<coverage generated="1624030202046" clover="3.2.0">
+  <project timestamp="1624030202046" name="All files">
     <metrics statements="31" coveredstatements="31" conditionals="38" coveredconditionals="38" methods="2" coveredmethods="2" elements="71" coveredelements="71" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
     <file name="cipher.js" path="C:\Users\elizabeth\Documents\GitHub\LIM015-cipher\src\cipher.js">
       <metrics statements="31" coveredstatements="31" conditionals="38" coveredconditionals="38" methods="2" coveredmethods="2"/>

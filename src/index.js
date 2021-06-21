@@ -4,7 +4,7 @@ import cipher from './cipher.js';
 let btncifrar = document.getElementById("cifrar");
 let btndescifrar = document.getElementById("descifrar");
 let llave = document.getElementById("llave");
-let texto1 = document.getElementById("texto1");
+const texto1 = document.getElementById("texto1");
 const texto2 = document.getElementById("texto2");
 
 //funciones
