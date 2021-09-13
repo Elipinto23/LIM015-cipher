@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -9,10 +10,16 @@
     <div id="root">
       <h1>Bienvenido</h1>
     </div>
+    <div id="txt1">
     <textarea  id ="texto1" name="texto1" rows="10" cols="40" placeholder="Escribe aqui tu mensaje"></textarea>
+  </div>
+  <div id="txt2">
     <textarea id="texto2" name="texto2" rows="10" cols="40" placeholder="Mensaje Final" readonly></textarea>
+    </div>
     <br>
+    <div id="llaveCifer">
     <p>Llave:<input type="text" id="llave" class="cajaLlave"/></p>
+  </div>
     <div id="cifrado">
     <input type="button" id="cifrar" value="cifrado"/>
   </div>
@@ -24,6 +31,6 @@
     <!-- <script src="functions.js" type="text/javascript"></script> -->
   </body>
   <footer>
-    <p>Derechos Reservados🔒</p>
+    <p>Derechos Reservados🔒 Creado por Elizabeth Pinto</p>
   </footer>
 </html>
